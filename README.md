@@ -1,7 +1,7 @@
 ##  Git Bisect Helper
 - A simple helper script for using git bisect to find the first commit with a bug
 
-## Dependencies
+## Dependencies (You need to install fzf)
 
 The only dependency is fzf 
 
@@ -12,10 +12,10 @@ The only dependency is fzf
   - `cd ~/.fzf`
   - `./install`
 
-## Install
+## Install / Download
 
 ```
-curl -oL https://raw.githubusercontent.com/gschnall/git-bisect-helper/master/git_bisect.sh
+curl https://raw.githubusercontent.com/gschnall/git-bisect-helper/master/git_bisect.sh > git_bisect.sh
 ```
 
 ## Running it
